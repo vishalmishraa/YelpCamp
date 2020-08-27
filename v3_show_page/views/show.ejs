@@ -1,0 +1,15 @@
+<%- include ("partials/header") %>
+
+
+
+    <h1 style="text-align: center; font-size:80px">
+        <%- campgrounds.name %>
+    </h1>
+
+    <img style="display: block; margin-left: auto; margin-right: auto; width: 50%; padding: 10px;" style="text-align: center;" src="<%- campgrounds.image %> " alt="">
+
+    <h3 style="text-align: center; font-weight: 500;">
+        <span style="font-weight: bold;">DESCRIPTION-</span>
+        <%= campgrounds.description %>
+    </h3>
+    <%- include ("partials/footer") %>
